@@ -1,6 +1,6 @@
 {
   "name": "react-use-locale-number-input",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A React hook for formatting number inputs based on the user's locale.",
   "keywords": [
     "react",
