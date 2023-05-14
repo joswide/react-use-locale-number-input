@@ -21,8 +21,10 @@ describe("useLocaleNumberInput", () => {
   });
 
   it("should return the hook params for en-US", async () => {
-    const { result } = renderHook(() => useLocaleNumberInput(1000.59, 'en-US', () => {}));
+    const { result } = renderHook(() =>
+      useLocaleNumberInput(1000.59, "en-US", () => {})
+    );
 
-    expect(result.current.value).toBe('1,000.59');
+    expect(result.current.value).toBe("1,000.59");
   });
 });
