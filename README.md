@@ -24,6 +24,12 @@ function ControlledInput() {
 }
 ```
 
+### Tests
+
+```bash
+npm run test
+```
+
 ### Docs
 
 See [https://joswide.com](https://joswide.com) for more details
