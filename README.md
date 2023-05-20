@@ -3,6 +3,10 @@
 
 # react-use-locale-number-input
 
+### Description
+
+`react-use-locale-number-input` is a React hook that formats and parses number inputs based on the provided locale.
+
 ### Example
 
 ```js
